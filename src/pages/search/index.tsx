@@ -1,10 +1,10 @@
 import SearchableLayout from "@/components/searchable-layout";
-import { ReactNode, useEffect } from "react";
+import { ReactNode } from "react";
 
-export default function Home() {
+export default function Page() {
   return <div></div>;
 }
 
-Home.getLayout = (page: ReactNode) => {
+Page.getLayout = (page: ReactNode) => {
   return <SearchableLayout>{page}</SearchableLayout>;
 };
